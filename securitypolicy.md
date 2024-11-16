@@ -94,7 +94,7 @@ This policy applies to:
 ---
 
 ### **6. Retention and Purging**
-1. Follow the retention policy outlined in the [Retention Policy](./README.md).
+1. Follow the retention policy outlined in the [Retention Policy](./MongoDBRetentionPolicy.md).
 2. Use a **TTL Index** to automatically delete expired data.
    - Example:
      ```javascript
